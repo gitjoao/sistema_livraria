@@ -1,3 +1,5 @@
+CREATE DATABASE livraria_bd;
+
 create table bookmaker(
   id integer(11) primary key NOT NULL AUTO_INCREMENT,
   name varchar(50) NOT NULL,
