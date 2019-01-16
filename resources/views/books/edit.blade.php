@@ -52,8 +52,8 @@
  					</div>
 
  					<div class="form-group col-md-2 col-xs-12">
- 						{{Form::label('price','*Valor:')}}
- 						{{Form::text('price', null, ['class' => 'form-control', 'placeholder' => 'Informe o Valor'])}}
+ 						{{Form::label('price','*Valor:(R$)')}}
+ 						{{Form::text('price', null, ['class' => 'form-control', 'placeholder' => 'Informe o Valor', 'id'=>'price'])}}
  					</div>
 
  					<div class="form-group col-md-6 col-xs-12">

@@ -22,6 +22,9 @@
 					{{Form::label('Título: ') }}	
 					{{$book->title}}
 					<br/>
+					{{Form::label('Preço: R$ ') }}	
+					{{$book->price}}
+					<br/>
 					{{Form::label('Autor: ') }}
 					{{$book->id_author}}
 					<br/>
